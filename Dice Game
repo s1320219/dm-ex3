@@ -1,5 +1,5 @@
 kkkkkkkkkkkklklklklllklkll
-なまえを聞く編集
+なまえを聞く編集        
 
 import java.util.Random;
 import java.util.Scanner;
@@ -17,6 +17,10 @@ public class DiceGame {
         int total = di1 + di2;
 
         System.out.println("Rolling the dice...");
+        System.out.println("Die 1: " + di1);
+        System.out.println("Die 2: " + di2);
+        System.out.println("Total value: " + total);
+        System.out.println("Rolling dice...");
         System.out.println("Die 1: " + di1);
         System.out.println("Die 2: " + di2);
         System.out.println("Total value: " + total);
