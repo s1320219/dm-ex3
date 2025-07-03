@@ -11,14 +11,24 @@ public class DiceGame {
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
 
-        Random rand = new Random();
-        int di1 = rand.nextInt(6) + 1;
-        int di2 = rand.nextInt(6) + 1;
+        Random r = new Random();
+        int di1 = r.nextInt(6) + 1;
+        int di2 = r.nextInt(6) + 1;
         int total = di1 + di2;
 
         System.out.println("Rolling the dice...");
         System.out.println("Die 1: " + di1);
         System.out.println("Die 2: " + di2);
         System.out.println("Total value: " + total);
+        System.out.println("Rolling dice...");
+        System.out.println("Die 1: " + di1);
+        System.out.println("Die 2: " + di2);
+        System.out.println("Total value: " + total);
+        //　勝敗
+        if (total > 7) {
+            System.out.println("You won");
+        } else {
+            System.out.println("You lost");
+        }
     }
 }
