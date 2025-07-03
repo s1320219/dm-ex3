@@ -24,11 +24,11 @@ public class DiceGame {
         System.out.println("Die 1: " + di1);
         System.out.println("Die 2: " + di2);
         System.out.println("Total value: " + total);
-        //　勝敗
+
         if (total > 7) {
-            System.out.println("You won");
+            System.out.println(name + " won!");
         } else {
-            System.out.println("You lost");
+            System.out.println(name + " lost!");
         }
     }
 }
